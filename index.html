@@ -4,23 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="perguntas">
-        <p>Qual e a bandeira desse pais??</p>
-        <img
-          src="./img/bandeira-do-brasil-og.jpg"
-          alt="Brasil"
-          width="200"
-          height="200"
-        />
-        <input type="button" value="Russia" />
-        <input type="button" value="Brasil" />
-        <input type="button" value="Holanda" />
-        <input type="button" value="China" />
-      </div>
-    </div>
+    <h1>Quiz com Java-Script.</h1>
+
+    <section class="container">
+      <section class="perguntas">
+        <p class="per">Qual e a bandeira desse pais??</p>
+        <img src="./img/bandeira-do-brasil-og.jpg" alt="Brasil" />
+        <div id="botoes">
+          <input type="radio" name="pais" />
+          <label for="russia">Russia</label><br />
+          <input type="radio" name="pais" />
+          <label for="holanda">Holanda</label><br />
+          <input type="radio" name="pais" />
+          <label for="holanda">Brasil</label><br />
+          <button onclick="resposta()">Verificar Resposta</button>
+        </div>
+      </section>
+      <section class="perguntas">
+        <p class="per">Qual e a bandeira desse pais??</p>
+        <img src="./img/download.png" alt="Brasil" />
+        <div id="botoes">
+          <input type="radio" name="pais" />
+          <label for="russia">Russia</label><br />
+          <input type="radio" name="pais" />
+          <label for="holanda">Holanda</label><br />
+          <input type="radio" name="pais" />
+          <label for="holanda">Brasil</label><br />
+          <button onclick="resposta()">Verificar Resposta</button>
+        </div>
+      </section>
+      <section class="perguntas">
+        <p class="per">Qual e a bandeira desse pais??</p>
+        <img src="./img/holanda.png" alt="Brasil" />
+        <div id="botoes">
+          <input type="radio" name="pais" />
+          <label for="russia">Russia</label><br />
+          <input type="radio" name="pais" />
+          <label for="holanda">Holanda</label><br />
+          <input type="radio" name="pais" />
+          <label for="holanda">Brasil</label><br />
+          <button onclick="resposta()">Verificar Resposta</button>
+        </div>
+      </section>
+      <section class="perguntas">
+        <p class="per">Qual e a bandeira desse pais??</p>
+        <img src="./img/alemanha.png" alt="Brasil" />
+        <div id="botoes">
+          <input type="radio" name="pais" />
+          <label for="russia">Russia</label><br />
+          <input type="radio" name="pais" />
+          <label for="holanda">Holanda</label><br />
+          <input type="radio" name="pais" />
+          <label for="holanda">Brasil</label><br />
+          <button onclick="resposta()">Verificar Resposta</button>
+        </div>
+      </section>
+    </section>
+    <script src="./js/index.js"></script>
   </body>
 </html>
