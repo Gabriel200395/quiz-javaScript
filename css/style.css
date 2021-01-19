@@ -10,23 +10,9 @@ h1 {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
 }
-#acertos {
-  margin-top: 60px;
-  margin-left: 25px;
-  font-family: "Nunito", sans-serif;
-  font-size: 30px;
-}
-
-#erros {
-  margin-top: 0px;
-  margin-left: 25px;
-  font-family: "Nunito", sans-serif;
-  font-size: 30px;
-}
 body {
   background-color: rgb(226, 218, 218);
 }
-
 .container {
   display: flex;
   justify-content: center;
@@ -45,7 +31,6 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: 17px;
 }
-
 img {
   width: 200px;
   height: 100px;
@@ -63,6 +48,18 @@ label {
   margin-top: 20px;
 }
 
+#finalizar {
+  height: 40px;
+  width: 200px;
+  background-color: rgb(62, 21, 243);
+  border: none;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
 button {
   height: 40px;
   width: 200px;
@@ -73,4 +70,8 @@ button {
   border-radius: 5px;
   font-weight: bold;
   margin-top: 20px;
+}
+.container-finalizar {
+  display: flex;
+  justify-content: center;
 }

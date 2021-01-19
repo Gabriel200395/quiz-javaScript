@@ -26,7 +26,7 @@
           <label for="holanda">Holanda</label><br />
           <input type="radio" name="pais" />
           <label for="holanda">Brasil</label><br />
-          <button onclick="resposta()">Verificar Resposta</button>
+          <button id="resposta" onclick="resposta()">Verificar Resposta</button>
         </div>
       </section>
       <section class="perguntas">
@@ -39,7 +39,9 @@
           <label for="holanda">argentina</label><br />
           <input type="radio" name="pais" />
           <label for="holanda">italia</label><br />
-          <button onclick="resposta()">Verificar Resposta</button>
+          <button id="resposta1" onclick="resposta()">
+            Verificar Resposta
+          </button>
         </div>
       </section>
       <section class="perguntas">
@@ -52,7 +54,7 @@
           <label for="holanda">holanda</label><br />
           <input type="radio" name="pais" />
           <label for="holanda">ucrânia</label><br />
-          <button onclick="resposta()">Verificar Resposta</button>
+          <button id="resposta" onclick="resposta()">Verificar Resposta</button>
         </div>
       </section>
       <section class="perguntas">
@@ -65,12 +67,19 @@
           <label for="holanda">alemanha</label><br />
           <input type="radio" name="pais" />
           <label for="holanda">belgica</label><br />
-          <button onclick="resposta()">Verificar Resposta</button>
+          <button id="resposta" onclick="resposta()">Verificar Resposta</button>
         </div>
       </section>
     </section>
-    <div id="acertos">acertos:</div>
-    <div id="erros">erros:</div>
+    <div class="container-finalizar">
+      <button
+        id="finalizar"
+        onclick="finalizar(contadorAcertos, contadorErros)"
+      >
+        Finalizar
+      </button>
+      <div id="resultado"></div>
+    </div>
     <script src="./js/index.js"></script>
   </body>
 </html>
