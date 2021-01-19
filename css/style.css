@@ -10,7 +10,19 @@ h1 {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
 }
+#acertos {
+  margin-top: 60px;
+  margin-left: 25px;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+}
 
+#erros {
+  margin-top: 0px;
+  margin-left: 25px;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+}
 body {
   background-color: rgb(226, 218, 218);
 }
@@ -30,6 +42,8 @@ body {
 }
 .per {
   margin-top: 37px;
+  font-family: "Nunito", sans-serif;
+  font-size: 17px;
 }
 
 img {
