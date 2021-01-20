@@ -1,35 +1,19 @@
 function resposta() {
   let pais = document.getElementsByName("pais");
-  let resposta = document.getElementById("resposta");
-  let resposta1 = document.getElementById("resposta1");
-
+  let resposta = document.getElementById("finalizar");
+  resposta.style.background = "red";
   validarResposta(pais, resposta, resposta1);
 }
 
-let contadorAcertos = 0;
-let contadorErros = 0;
-
-function validarResposta(pais, resposta, resposta1) {
+function validarResposta(pais, resposta) {
   if (pais[0].checked) {
-    contadorErros += 1;
-    resposta.innerHTML = "ERROU!";
+    resposta.innerHTML = `Errou outra vez `;
     resposta.style.background = "red";
   } else if (pais[1].checked) {
-    contadorErros += 1;
-    resposta.innerHTML = "ERROU!";
+    resposta.innerHTML = `Errou`;
     resposta.style.background = "red";
   } else if (pais[2].checked) {
-    contadorAcertos += 1;
-    resposta.innerHTML = "ACERTOU";
-  } else if (pais[3].checked) {
-    contadorAcertos += 1;
-    resposta1.innerHTML = "ACERTOU";
+    resposta.innerHTML = `Acertou`;
+    resposta.style.background = "blue";
   }
-
-  return pais, resposta;
-}
-
-function finalizar(acerto, erro) {
-  let resultado = document.getElementById("finalizar");
-  resultado.innerHTML = `Acertos: ${acerto} e Erros: ${erro}`;
 }

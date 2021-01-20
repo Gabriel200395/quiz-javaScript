@@ -5,8 +5,8 @@
 
 h1 {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
 }
@@ -22,19 +22,14 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 0px 18px;
-  width: 290px;
-  height: 350px;
+  width: 450px;
+  height: 491px;
   background-color: #f1ecec;
 }
 .per {
   margin-top: 37px;
   font-family: "Nunito", sans-serif;
   font-size: 17px;
-}
-img {
-  width: 200px;
-  height: 100px;
-  margin-top: 10px;
 }
 label {
   padding: 10px;
@@ -46,18 +41,6 @@ label {
 
 #botoes {
   margin-top: 20px;
-}
-
-#finalizar {
-  height: 40px;
-  width: 200px;
-  background-color: rgb(62, 21, 243);
-  border: none;
-  color: #fff;
-  outline: none;
-  border-radius: 5px;
-  font-weight: bold;
-  margin-top: 50px;
 }
 
 button {
